@@ -11,6 +11,3 @@ body // the data u get from the get request to product endpoint
 var size_id = await parse(body, '04.5').catch(() => {
   console.log('Error parsing size id ');
 });
-
-twitter : https://twitter.com/backenddev 
-discord : bach#3012
