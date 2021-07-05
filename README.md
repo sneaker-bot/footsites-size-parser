@@ -12,4 +12,4 @@ var size_id = await parse(body, '04.5').catch(() => {
   console.log('Error parsing size id ');
 });
 
-random sizing only works with sku that only contains 1 product. Do not use it for a sku that contains multiple products!
+random sizing only works with sku that only contains 1 product. Do not use it for a sku that contains multiple products / colors!
