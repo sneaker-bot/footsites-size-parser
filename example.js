@@ -3,7 +3,7 @@ const got = require('got');
 
 async function main(){
 
-	var get = await got.get('https://www.footlocker.com/api/products/pdp/21351191', {
+	var get = await got.get('https://www.footlocker.com/api/products/pdp/669100FL', {
 
 		headers : {
 
@@ -28,7 +28,7 @@ async function main(){
 	});
 
 	var body = await get.body; 
-	var size_id = await parse(body, '05.0').catch(() => {
+	var size_id = await parse(body, 'random').catch(() => {
 		console.log('Error parsing size id');
 	});
 
